@@ -24,13 +24,11 @@ Present a clean, responsive, and accessible UI with shadcn/ui + Tailwind CSS.
 
 💡 Assumptions
 
-CSV files are UTF-8 encoded with consistent headers: date, person, miles run.
+CSV headers are exactly `date, person, miles run` (case-insensitive, order matters).
+All data is processed client-side; no backend or database is used.
+The app is tested on modern browsers (Chrome, Firefox, Edge, Safari).
+CSV encoding assumed UTF-8.
 
-Date values are treated as strings (no parsing/formatting).
-
-Data is analyzed client-side; no backend or persistence is implemented.
-
-Intended for modern browsers (Chrome, Firefox, Safari, Edge).
 
 ✨ Features
 🧮 Core Functionality
